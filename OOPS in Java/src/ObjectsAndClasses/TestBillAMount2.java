@@ -1,3 +1,4 @@
+package ObjectsAndClasses;
 // Initializing through the method
 
 class Person2{

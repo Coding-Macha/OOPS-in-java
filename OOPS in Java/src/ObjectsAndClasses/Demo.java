@@ -1,3 +1,4 @@
+package ObjectsAndClasses;
 class Test
 {
   private Test() 

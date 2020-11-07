@@ -1,19 +1,21 @@
-class Person{
-	int totalBill=250;
+package ObjectsAndClasses;
+class Person1{
+	int totalBill;
 	void after_discount()
 	{
 		double amount=totalBill-(0.1*totalBill);
 		System.out.println(amount);
 	}
 }
-
-
-
-public class TestBillAmount {
+public class TestBillAmount1 {
 
 	public static void main(String[] args) {
-		Person obj = new Person();
+		Person1 obj=new Person1();
+		obj.totalBill=250;
 		obj.after_discount();
+		
+		
+		
 
 	}
 
